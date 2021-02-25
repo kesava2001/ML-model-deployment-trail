@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registration form
+        </title>
+    </head>
+
+    <body>
+        <h1>Machine Learning Model</h1>
+        <form action="{{url_for('predict')}}" method="POST">
+            <input type="decimal", name='feature1', placeholder="999">
+            <br>
+            <br>
+            <input type="decimal", name='feature2', placeholder="999">
+            <br>
+            <br>
+            <input type="decimal", name='feature3', placeholder="999">
+            <br>
+            <br>
+            <input type="decimal", name='feature4', placeholder="999">
+            <br>
+            <br>
+            <input type="submit", value="Predict">
+            <!--<input type="reset", value="Reset">-->
+            <br>
+            <br>
+            {{put_text}}
+
+        </form>
+        <div>
+
+        </div>
+    </body>
+</html>
