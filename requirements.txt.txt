@@ -1,9 +1,0 @@
-Python==3.8.7
-Flask==1.1.2
-Werkzeug==1.0.1
-scipy==1.4.1
-numpy==1.19.5
-Itsdangerous==1.1.0
-Scikit-learn==0.24.1
-Gunicorn==20.0.4
-Jinja2==2.11.3
